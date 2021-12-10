@@ -8,7 +8,6 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("./ace-vial-332517-f3b17d0381fe.json")
 
   project = "ace-vial-332517"
   region  = "us-central1"

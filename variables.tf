@@ -1,6 +1,6 @@
 variable "project" {
   description = "project id to which the gcr resource belongs"
-  default     = ""
+  default     = "terraform-project-334700"
 }
 
 variable "location" {
@@ -10,7 +10,7 @@ variable "location" {
 
 variable "user" {
   description = "value"
-  default     = ["domain:mavencode.com"]
+  default     = "domain:mavencode.com"
 }
 
 
