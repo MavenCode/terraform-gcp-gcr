@@ -1,6 +1,6 @@
 variable "project" {
   description = "project id to which the gcr resource belongs"
-  default     = "terraform-project-334700"
+  default     = ""
 }
 
 variable "location" {
@@ -9,8 +9,12 @@ variable "location" {
 }
 
 variable "user" {
-  description = "value"
+  description = " Identities that will be granted the privilege in user_role; domain, email,"
   default     = "domain:mavencode.com"
 }
 
+variable "user_roler" {
+  description = "access privilege to grant user"
+  default     = "roles/storage.objectViewer"
+}
 
